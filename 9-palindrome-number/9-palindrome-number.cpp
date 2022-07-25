@@ -10,7 +10,7 @@ public:
         uint32_t reverseDigit =0;
         uint32_t originalNumber  = x;
         // Getting palindrome
-        while (x>0)
+        for(;x>0;)
         {
             // getting hte last digit
             // this is getting the ones collumn
