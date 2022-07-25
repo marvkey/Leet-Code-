@@ -10,8 +10,7 @@ public:
         uint32_t reverseDigit =0;
         uint32_t originalNumber  = x;
         // Getting palindrome
-        //for loop
-        //faster than while
+        //using for loop faster than while
         for(;x>0;)
         {
             // getting hte last digit
