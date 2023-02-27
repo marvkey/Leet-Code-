@@ -16,7 +16,7 @@ public:
       
         // no need to check second pointer 
         // they go at the same tieme
-        while (secondPointer!=-1){
+        while (secondPointer>firstPointer){
             std::cout<<secondPointer;
             if(firstPointer == secondPointer){
                 if(values[firstPointer] == values[secondPointer])
