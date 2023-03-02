@@ -8,7 +8,6 @@ public:
         std::sort(combine.begin(), combine.end());
      
         float index = combine.size();
-        int indexint = index;
         if(int(index)%2 == 0){
             index /=2;
             float val = combine[index-1] +combine[index];
