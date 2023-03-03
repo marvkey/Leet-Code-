@@ -3,7 +3,7 @@ public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
         vector<int> combine;
         combine.reserve( nums1.size() + nums2.size() );
-        combine.insert( combine.end(), nums1.begin(), nums1.end() );
+        combine = std::move(nums1);
         combine.insert( combine.end(), nums2.begin(), nums2.end() );
         std::sort(combine.begin(), combine.end());
      
